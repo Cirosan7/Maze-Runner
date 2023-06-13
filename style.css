@@ -1,0 +1,104 @@
+/*Estilos globales*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(58, 57, 57, 0.2);
+}
+
+.logoConectarHeader {
+    width: 50px;
+}
+
+.navBarHeader,
+.navSocialMediaHeader {
+    display: flex;
+    gap: 20px;
+}
+
+.navSocialMediaHeader i {
+    font-size: 20px;
+}
+
+/*main*/
+
+div.iBanerr {
+    background-image: url("./Imagenes/mazerunerr1.png");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.division_negro {
+    background: linear-gradient(#181818, #000000);
+    width: 100%;
+    height: 900px;
+    padding-top: 15px;
+}
+
+h2{
+   color: #ffffff;
+}
+.parrafo1{
+    width:  100px;
+}
+.cards1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+p{
+    color: #ffffff;
+}
+.books1{
+    height: 100px;
+    width: 50%;
+
+}
+.maze_runner1{
+    height: 160px;
+    width: 120px;
+    
+}
+
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    box-shadow: -2px -2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    background-color: rgb(219, 219, 206);
+}
+
+footer p {
+    text-align: center;
+    background-color: #ffffff
+}
