@@ -84,6 +84,13 @@ section.listCards {
 
 p{
     color: #ffffff;
+
+}
+h1{
+    padding-left: 100px;
+    color: beige;
+    padding-top: 30px;
+    font-family: 'Caladea', serif;
 }
 .books1{
     height: 100px;
